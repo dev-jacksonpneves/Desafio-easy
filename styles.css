@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.section-1 {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.section-2 {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+
+
+}
+
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin-top: 350px;
+    margin-left: 90px;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #5D5D7D;
+    margin-left: 90px;
+    margin-top: 15px;
+    opacity: 0.6;
+
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    margin: 10px 0px 0px 115px;
+    background: #9499EA;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 3px rgb(104, 104, 163);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #fff;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+
+}
+
+a {
+    margin: 10px 30px 15px 16px;
+    width: 90px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
+    color: rgba(93, 93, 125, 1);
+    cursor: pointer;
+
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+button:hover {
+    opacity: .5;
+
+}
+
+button:active {
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 900px) {
+    .section-1 {
+        display: block;
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        height: 50%;
+        position: static;
+        
+    }
+
+    h1 {
+        width: auto;
+        height: 84px;
+        margin-top: 10px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 8px auto;
+        
+
+        
+    }
+
+    img {
+        position: static;
+        height: 322.95px;
+        width: 271px;
+        margin: 0 auto;
+        display: block;
+        max-width: 90%;
+
+
+      
+
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 20px auto;
+        display: block;
+        
+        
+    
+    }
+    button {
+        width: 269px;
+        height: 62px;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin: 10px auto;
+        display: block; 
+    } 
+    
+}
