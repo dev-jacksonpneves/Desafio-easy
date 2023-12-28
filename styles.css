@@ -142,7 +142,7 @@ button:active {
         position: static;
         height: 322.95px;
         width: 271px;
-        margin: 0 auto;
+        margin: 10px auto;
         display: block;
         max-width: 90%;
 
@@ -159,7 +159,7 @@ button:active {
         line-height: 15px;
         font-size: 20px;
         margin-left: 2px 2px;
-        
+
         }
 
     p {
