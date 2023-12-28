@@ -119,10 +119,9 @@ button:active {
 
     .section-2 {
         display: block;
-        height: auto;
         width: 100%;
-        height: 50%;
-        position: static;
+        height: 70%;
+        position:static;
         
     }
 
@@ -152,9 +151,16 @@ button:active {
 
     }
 
-    header {
-        display: none;
-    }
+    a {
+        position: relative;
+        top: 5px;
+        width: 389px;
+        height: auto;
+        line-height: 15px;
+        font-size: 20px;
+        margin-left: 2px 2px;
+        
+        }
 
     p {
         width: auto;
@@ -176,6 +182,7 @@ button:active {
         text-align: center;
         margin: 10px auto;
         display: block; 
+        max-width: 90%;
     } 
     
 }
